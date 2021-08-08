@@ -1,0 +1,4 @@
+/Users/xuhua/Desktop/C++/projects/cvrp_part2_local_env/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xuhua/Desktop/C++/projects/cvrp_part2_local_env/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xuhua/Desktop/C++/projects/cvrp_part2_local_env/code/cmake-build-debug/CMakeFiles/test.dir
+/Users/xuhua/Desktop/C++/projects/cvrp_part2_local_env/code/cmake-build-debug/CMakeFiles/cvrp.dir

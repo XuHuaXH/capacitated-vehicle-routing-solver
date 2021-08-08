@@ -1,0 +1,12 @@
+# Python sample
+FROM ubuntu:21.04
+
+ENV DEBCONF_NOWARNINGS yes 
+ENV DEBIAN_FRONTEND = noninteractive
+
+RUN apt-get update && apt-get install -y python3.9 python3-pip && \
+    ln -sf /usr/bin/python3 /usr/bin/python && \
+    ln -sf /usr/bin/pip3 /usr/bin/pip && \
+    apt-get autoremove && apt-get clean
+
+COPY . /code

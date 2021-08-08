@@ -1,0 +1,91 @@
+[{
+    "route": ["depot_0055", "store_0183", "store_0166", "store_0294"], 
+    "k" : 1, 
+    "loads": [{"node": "store_0183", "load_idx_in_node" : 0}, {"node": "store_0166", "load_idx_in_node" : 0}, {"node": "store_0294", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0239", "store_0321", "store_0320"], 
+    "k" : 1, 
+    "loads": [{"node": "store_0239", "load_idx_in_node" : 0}, {"node": "store_0321", "load_idx_in_node" : 0}, {"node": "store_0320", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0360", "store_0211"], 
+    "k" : 3, 
+    "loads": [{"node": "store_0360", "load_idx_in_node" : 0}, {"node": "store_0211", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0187", "store_0336", "store_0336"], 
+    "k" : 3, 
+    "loads": [{"node": "store_0187", "load_idx_in_node" : 0}, {"node": "store_0336", "load_idx_in_node" : 0}, {"node": "store_0336", "load_idx_in_node" : 1}]
+}
+, {
+    "route": ["depot_0055", "store_0352", "store_0455"], 
+    "k" : 1, 
+    "loads": [{"node": "store_0352", "load_idx_in_node" : 0}, {"node": "store_0455", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0005", "store_0060"], 
+    "k" : 1, 
+    "loads": [{"node": "store_0005", "load_idx_in_node" : 0}, {"node": "store_0060", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0022", "store_0482", "store_0210", "store_0135"], 
+    "k" : 4, 
+    "loads": [{"node": "store_0022", "load_idx_in_node" : 0}, {"node": "store_0482", "load_idx_in_node" : 0}, {"node": "store_0210", "load_idx_in_node" : 0}, {"node": "store_0135", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0240", "store_0240", "store_0241", "store_0241"], 
+    "k" : 2, 
+    "loads": [{"node": "store_0240", "load_idx_in_node" : 0}, {"node": "store_0240", "load_idx_in_node" : 1}, {"node": "store_0241", "load_idx_in_node" : 0}, {"node": "store_0241", "load_idx_in_node" : 1}]
+}
+, {
+    "route": ["depot_0055", "store_0473", "store_0473", "store_0083", "store_0023"], 
+    "k" : 3, 
+    "loads": [{"node": "store_0473", "load_idx_in_node" : 0}, {"node": "store_0473", "load_idx_in_node" : 1}, {"node": "store_0083", "load_idx_in_node" : 0}, {"node": "store_0023", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0374", "store_0049", "store_0203", "store_0362", "store_0059"], 
+    "k" : 3, 
+    "loads": [{"node": "store_0374", "load_idx_in_node" : 0}, {"node": "store_0049", "load_idx_in_node" : 0}, {"node": "store_0203", "load_idx_in_node" : 0}, {"node": "store_0362", "load_idx_in_node" : 0}, {"node": "store_0059", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0036", "store_0286", "store_0481", "store_0481"], 
+    "k" : 7, 
+    "loads": [{"node": "store_0036", "load_idx_in_node" : 0}, {"node": "store_0286", "load_idx_in_node" : 0}, {"node": "store_0481", "load_idx_in_node" : 1}, {"node": "store_0481", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0390", "store_0095"], 
+    "k" : 2, 
+    "loads": [{"node": "store_0390", "load_idx_in_node" : 0}, {"node": "store_0095", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0297", "store_0458", "store_0112"], 
+    "k" : 1, 
+    "loads": [{"node": "store_0297", "load_idx_in_node" : 0}, {"node": "store_0458", "load_idx_in_node" : 0}, {"node": "store_0112", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0409"], 
+    "k" : 2, 
+    "loads": [{"node": "store_0409", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0293", "store_0293", "store_0214"], 
+    "k" : 1, 
+    "loads": [{"node": "store_0293", "load_idx_in_node" : 0}, {"node": "store_0293", "load_idx_in_node" : 1}, {"node": "store_0214", "load_idx_in_node" : 0}]
+}
+, {
+    "route": ["depot_0055", "store_0411", "store_0113", "store_0113"], 
+    "k" : 2, 
+    "loads": [{"node": "store_0411", "load_idx_in_node" : 0}, {"node": "store_0113", "load_idx_in_node" : 0}, {"node": "store_0113", "load_idx_in_node" : 1}]
+}
+, {
+    "route": ["depot_0055", "store_0330", "store_0330", "store_0333", "store_0333", "store_0333", "store_0333"], 
+    "k" : 2, 
+    "loads": [{"node": "store_0330", "load_idx_in_node" : 0}, {"node": "store_0330", "load_idx_in_node" : 1}, {"node": "store_0333", "load_idx_in_node" : 0}, {"node": "store_0333", "load_idx_in_node" : 1}, {"node": "store_0333", "load_idx_in_node" : 2}, {"node": "store_0333", "load_idx_in_node" : 3}]
+}
+, {
+    "route": ["depot_0055", "store_0334", "store_0334", "store_0334"], 
+    "k" : 4, 
+    "loads": [{"node": "store_0334", "load_idx_in_node" : 0}, {"node": "store_0334", "load_idx_in_node" : 1}, {"node": "store_0334", "load_idx_in_node" : 2}]
+}
+]
