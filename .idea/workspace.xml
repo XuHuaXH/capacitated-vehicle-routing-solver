@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c214351-a1e6-4cbc-b1b3-0eb94f9899ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/code/GA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cvrp_part2_local_env/code/GA.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/code/GeneticSolver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cvrp_part2_local_env/code/GeneticSolver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/code/Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cvrp_part2_local_env/code/Solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/code/solve.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cvrp_part2_local_env/code/solve.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/dest/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/dest/solution" beforeDir="false" afterPath="$PROJECT_DIR$/cvrp_part2_local_env/dest/solution" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/out/cost.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/out/routes_depot_0002.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/out/routes_depot_0003.json" beforeDir="false" afterPath="$PROJECT_DIR$/cvrp_part2_local_env/out/routes_depot_0003.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/out/routes_depot_0005.json" beforeDir="false" afterPath="$PROJECT_DIR$/cvrp_part2_local_env/out/routes_depot_0005.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/out/routes_depot_0021.json" beforeDir="false" afterPath="$PROJECT_DIR$/cvrp_part2_local_env/out/routes_depot_0021.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cvrp_part2_local_env/out/routes_depot_0055.json" beforeDir="false" afterPath="$PROJECT_DIR$/cvrp_part2_local_env/out/routes_depot_0055.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>write_</find>
+      <find>write_to</find>
+      <find>this-&gt;population</find>
+      <find>this-&gt;pop</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cvrp_part2_local_env/code/GA.py" />
+        <option value="$PROJECT_DIR$/cvrp_part2_local_env/code/results.txt" />
+        <option value="$PROJECT_DIR$/cvrp_part2_local_env/code/GA.cpp" />
+        <option value="$PROJECT_DIR$/cvrp_part2_local_env/code/solve.sh" />
+        <option value="$PROJECT_DIR$/cvrp_part2_local_env/code/GeneticSolver.cpp" />
+        <option value="$PROJECT_DIR$/cvrp_part2_local_env/code/Solver.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/capacitated-vehicle-routing-solver.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="27" />
+    <option name="width" value="1393" />
+    <option name="height" value="798" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="capacitated-vehicle-routing-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacitated-vehicle-routing-solver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacitated-vehicle-routing-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacitated-vehicle-routing-solver" type="462c0819:PsiDirectoryNode" />
+              <item name="cvrp_part2_local_env" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacitated-vehicle-routing-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacitated-vehicle-routing-solver" type="462c0819:PsiDirectoryNode" />
+              <item name="cvrp_part2_local_env" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacitated-vehicle-routing-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacitated-vehicle-routing-solver" type="462c0819:PsiDirectoryNode" />
+              <item name="cvrp_part2_local_env" type="462c0819:PsiDirectoryNode" />
+              <item name="dest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacitated-vehicle-routing-solver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacitated-vehicle-routing-solver" type="462c0819:PsiDirectoryNode" />
+              <item name="cvrp_part2_local_env" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c214351-a1e6-4cbc-b1b3-0eb94f9899ba" name="Default Changelist" comment="" />
+      <created>1629732931652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629732931652</updated>
+      <workItem from="1629732934389" duration="5885000" />
+      <workItem from="1630123497985" duration="332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6217000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="27" width="1393" height="798" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531458" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/code/solve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6478">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/code/GA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="337" column="40" lean-forward="true" selection-start-line="337" selection-start-column="40" selection-end-line="337" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/code/results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/code/GA.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/code/solve.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/code/GeneticSolver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="213" column="19" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/code/Solver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="607" column="5" selection-start-line="607" selection-start-column="5" selection-end-line="607" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/code/preprocess.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/platform/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/platform/score.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/platform/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvrp_part2_local_env/dest/empty.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

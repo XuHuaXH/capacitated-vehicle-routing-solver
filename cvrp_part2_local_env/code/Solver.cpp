@@ -301,12 +301,10 @@ public:
             } else if (isdigit(ch) || ch == '.') {
                 value_buffer += ch;
             } else if (ch == ',') {
-// fprintf(stderr, "%s --> %s: %s\n", src.c_str(), name.c_str(), value_buffer.c_str());
                 double value;
                 stringstream sin(value_buffer);
                 sin >> value;
                 dist[src][name] = value;
-//            cout << src << " " << name << " " << value << endl;
             }
         }
         fclose(in);
@@ -380,9 +378,6 @@ public:
     void swap(Route& route, int idx1, int idx2) {
         auto start = chrono::high_resolution_clock::now();
         std::swap(route.loads[idx1], route.loads[idx2]);
-//        auto end = chrono::high_resolution_clock::now();
-//        double time_taken = chrono::duration_cast<chrono::nanoseconds>(end - start).count();
-//        cout << "swapping took " << time_taken << " nanoseconds" << endl;
     }
 
     void reorder_single_route(Route& route) {
@@ -611,7 +606,6 @@ public:
         }
         solution.score = compute_score(solution);
     }
-
 };
 
 

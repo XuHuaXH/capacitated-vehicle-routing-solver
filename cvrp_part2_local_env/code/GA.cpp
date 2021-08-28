@@ -6,6 +6,7 @@
 #include <ctime>
 #include <algorithm>
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <sstream>
 #include <unordered_map>
@@ -13,20 +14,19 @@
 using namespace std;
 
 
+void write_to_file(string s) {
+    ofstream outfile;
+    outfile.open("results.txt", ios_base::app);
+    outfile << s << endl;
+    outfile.close();
+}
+
 
 
 
 
 int main(int argc, char* argv[])
 {
-
-//    const string pwd = "/Users/xuhua/Desktop/cvrp_part2_local_env";
-//    const string DEPOT = "depot_0002";
-//    const string TIME_FILE = pwd + "/dest/time_matrix_depot_0002.json";
-//    const string PICKUP_FILE = pwd + "/platform/dataset/depot_0002/loads_depot_0002.json";
-//    const string OUTPUT_ROUTES = pwd + "/out/routes_depot_0002.json";
-
-
     const string DEPOT = argv[1];
     const string TIME_FILE = argv[2];
     const string PICKUP_FILE = argv[3];
@@ -56,10 +56,12 @@ int main(int argc, char* argv[])
     double last_score = solver.population[0].score;
 
     for (int i = 0; i < 8001; ++i) {
-
+        if (i == 0) {
+            write_to_file(to_string(solver.population[0].score));
+        }
 
         if (i > 0 && i % 10 == 0) {
-            solver.mutation_rate += 0.03;
+            solver.mutation_rate += 0.1;
         }
 
         if (i > 0 && i % 30 == 0) {
@@ -70,8 +72,9 @@ int main(int argc, char* argv[])
 
 
         time_t curr_time = time(nullptr);
-        if (curr_time - start_time > 2) {
+        if (curr_time - start_time > 500) {
             solver.write_to_file(solver.population[0]);
+            write_to_file(to_string(solver.population[0].score));
             return 0;
         }
         if (curr_time > last_time) {
@@ -80,10 +83,6 @@ int main(int argc, char* argv[])
             last_time = curr_time;
             last_score = curr_score;
         }
-
-//        for (auto& sol : solver.population) {
-//            cout << sol.score << endl;
-//        }
         cout << "the best score for generation " << i << " is: " << solver.population[0].score <<
         endl;
     }

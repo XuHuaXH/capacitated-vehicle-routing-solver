@@ -76,11 +76,9 @@ public:
             max_heap.pop();
         }
         reverse(result.begin(), result.end());
-//        for (Solution sol : result) {
-//            cout << "score: " << sol.score << endl;
-//        }
         this->population = result;
     }
+
     // The best elite_size many individuals are selected directly.
     // For the rest in the population, each one is selected with
     // probability based on its score
@@ -103,7 +101,6 @@ public:
             selected_index.insert(i);
         }
 
-        // ??? how many parents?
         for  (int i = this->elite_size; i < ranked_population.size(); ++i) {
             int random = rand() % (int)ceil(roulette_wheel[roulette_wheel.size() - 1]);
             for (int j = 0; j < roulette_wheel.size() - 1; ++j) {
@@ -116,11 +113,8 @@ public:
                 }
             }
         }
+
         // we don't need to sort here because the elites are already at the front
-//        sort(selected.begin(), selected.end(), solution_compare);
-//        for (const Solution& sol: selected) {
-//            cout << "selected score: " << sol.score << endl;
-//        }
         return selected;
     }
 
@@ -132,7 +126,6 @@ public:
         unordered_set<Parcel, ParcelHash> added_parcels;
 
         int cut_index = rand() % parent1.gene.size();
-//        cout << "chosen cut index is " << cut_index << "/" << parent1.gene.size() << endl;
         for (int i = 0; i <= cut_index; ++i) {
             child_gene.emplace_back(parent1.gene[i]);
             for (const Parcel& p : parent1.gene[i].loads) {
@@ -167,7 +160,6 @@ public:
     void breed_population(const vector<Solution>& ranked_selected) {
         vector<Solution> next_generation;
         next_generation.reserve(this->population_size);
-//        unordered_set<vector<int>, ParentsHasher> used_parents;
         for (int i = 0; i < this->elite_size; ++i) {
             next_generation.emplace_back(ranked_selected[i]);
         }
@@ -179,13 +171,6 @@ public:
                 idx2 = rand() % ranked_selected.size();
             }
 
-//            // check if this pair of parents have been used
-//            vector<int> parent_indices = {idx1, idx2};
-//            if (used_parents.find(parent_indices) != used_parents.end()) {
-//                continue;
-//            }
-
-//            cout << "chosen parents are (" << idx1 << ", " << idx2 << ")" << endl;
             Solution child = OX_breed(ranked_selected[idx1], ranked_selected[idx2]);
             next_generation.emplace_back(child);
         }
@@ -205,8 +190,6 @@ public:
             }
         }
 
-        // no need to sort here either
-        // sort(next_generation.begin(), next_generation.end(), solution_compare);
     }
 
     // replace some unfit individuals with newly_generated immigrants
@@ -229,7 +212,6 @@ public:
 
 
     void evolve() {
-
         introduce_immigrants();
         vector<Solution> ranked_selected = select(this->population);
         breed_population(ranked_selected);
@@ -244,9 +226,6 @@ public:
         }
         sort(this->population.begin(), this->population.end(), solution_compare);
     }
-
-
-
 };
 
 
